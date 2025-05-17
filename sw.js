@@ -1,6 +1,6 @@
 let dymanic = [
   'api.github.com',
-  'tjy-gitnub.github.io/win12-theme',
+  'user13865363346.github.io/win12-theme',
   'win12server.freehk.svipss.top',
   'assets.msn.cn'
 ]
@@ -85,7 +85,7 @@ this.addEventListener('activate', update);
 
 // let dongtai=[
 //   'api.github.com',
-//   'tjy-gitnub.github.io/win12-theme',
+//   'user13865363346.github.io/win12-theme',
 //   'win12server.freehk.svipss.top',
 //   'assets.msn.cn'
 // ]
