@@ -3,13 +3,14 @@
 /*
 
 Windows 12 网页版
-    GitHub: tjy-gitnub/win12
+    原网页:GitHub: tjy-gitnub/win12
+    本网页:github：user13865363346/win12
 
 */
 
 /********** 禁止格式化此文档！ **********/
 
-console.log('%cWindows 12 网页版 (GitHub: tjy-gitnub/win12)', 'background-image: linear-gradient(to right,rgb(174, 115, 229),rgb(21, 105, 223)); border-radius: 8px; font-size: 1.3em; padding: 10px 15px; color: #fff; ');
+console.log('%cWindows 12 网页版 (GitHub: user13865363346/win12)', 'background-image: linear-gradient(to right,rgb(174, 115, 229),rgb(21, 105, 223)); border-radius: 8px; font-size: 1.3em; padding: 10px 15px; color: #fff; ');
 // 好高级，还能这样？？
 
 
@@ -57,6 +58,7 @@ let langc={
     'en-us':'en',
     'en-GB':'en',
     'en-gb':'en'
+//真的不支持这么多语言......QwQ
 }
 
 let langcode,lang=(txt,id)=>{
@@ -270,7 +272,7 @@ const cms = {
     'desktop': [
         [`<i class="bi bi-arrow-clockwise"></i> ${lang('刷新','refresh')} <info>F5</info>`, '$(\'#desktop\').css(\'opacity\',\'0\');setTimeout(()=>{$(\'#desktop\').css(\'opacity\',\'1\');},100);setIcon();'],
         ['<i class="bi bi-circle-square"></i> '+lang('切换主题','desktop.tgltheme'), 'toggletheme()'],
-        `<a onmousedown="window.open(\'https://github.com/tjy-gitnub/win12\',\'_blank\');" win12_title="https://github.com/tjy-gitnub/win12" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)"><i class="bi bi-github"></i> ${lang('在 Github 中查看此项目','desktop.vogithub')}</a>`,
+        `<a onmousedown="window.open(\'https://github.com/user13865363346/win12\',\'_blank\');" win12_title="https://github.com/user13865363346/win12" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)"><i class="bi bi-github"></i> ${lang('在 Github 中查看此项目','desktop.vogithub')}</a>`,
         arg => {
             if (edit_mode) {
                 return ['<i class="bi bi-pencil"></i> '+lang('退出编辑模式','desktop.exitedit'), 'editMode();'];
@@ -376,7 +378,7 @@ const cms = {
     ],
     'explorer.file': [
         arg => {
-            return ['<i class="bi bi-folder2-open"></i> 打开（目前毛用没有）', ''];
+            return ['<i class="bi bi-folder2-open"></i> 打开（目前毛用没有(吴PS:那你开发个蛋啊!)）', ''];
         },
         arg => {
             if ($('#win-explorer>.path>.tit>.path>div.text').length > 1)
@@ -659,6 +661,7 @@ const nts = {
             <p>Windows 12 网页版是一个开放源项目,<br />
             希望让用户在网络上预先体验 Windows 12,<br />
             内容可能与 Windows 12 正式版本不一致。<br />
+	    本网页由tjy-gitnub原生,由user13865363346开发。<br />
             使用标准网络技术,例如 HTML, CSS 和 JS<br />
             此项目绝不附属于微软,且不应与微软操作系统或产品混淆,<br />
             这也不是 Windows365 cloud PC<br />
@@ -671,7 +674,7 @@ const nts = {
     },
     'feedback': {
         cnt: `<p class="tit">${lang('反馈','nts.feedback.name')}</p>
-            <p>${lang('我们非常注重用户的体验与反馈','nts.feedback.txt')}</p>
+            <p>${lang('我们非常(不)注重用户的体验与反馈','nts.feedback.txt')}</p>
             <list class="new">
                 <a class="a" onclick="window.open('https://github.com/tjy-gitnub/win12/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">${lang('在github上提交issue (需要github账户)','nts.feedback.github')}</a>
             </list>`,
@@ -692,7 +695,7 @@ const nts = {
         ]
     },
     'ZeroDivision': {//计算器报错窗口
-        // 甚至还报错我真的哭死，直接输入框显示error啥的不就完了。。
+        // 甚至还报错我真的哭死，直接输入框显示error啥的不就完了(吴PS:你还怪聪明的)。
         cnt: lang(`<p class="tit">错误</p>
             <p>除数不得等于0</p>`,'calc.error.zero'),
         btn: [
@@ -738,7 +741,7 @@ const nts = {
         cnt: `
             <p class="tit">切换新闻源</p>
             <list class="new">
-                新闻源未加载，请检查网络连接
+                新闻源无法加载，请检查网络连接
             </list>`,
         btn: [{ type: 'cancel', text: lang('取消','cancel'), js: 'closenotice();' }],
     },
@@ -756,7 +759,7 @@ const nts = {
             <p>你可以使用此 AI 助手帮助你更快地完成工作 (有人用Win12工作?)<br>
             由于所用模型理解力较差，所以间歇性正常工作。<br>
             有任何关于本 AI 的反馈请让 AI 帮你打开 AI Copilot反馈界面<br>
-            也请适当使用，不要谈论敏感、违规话题，<br>请有身为一个人类最基本的道德底线。<br>
+            也请适当使用，不要谈论敏感、违规话题(比如簧色)，<br>请有身为一个人类最基本的道德底线。<br>
             小项目难免会有bug，见谅，后端由 github@NB-Group 提供</p>`,
         btn: [
             { type: 'main', text: lang('确定','ok'), js: 'closenotice();' },
@@ -777,7 +780,7 @@ const nts = {
     'shutdown': {
         cnt: `
         <p class="tit">即将注销你的登录</p>
-        <p>Windows 将在 114514 分钟后关闭。</p>`,
+        <p>Windows 将在 114514 分钟后关闭(吴PS:等着吧等着吧,等到世界末日就可以关了(bs--)。</p>`,
         btn: [
             { type: 'main', text: lang('关闭','close'), js: 'closenotice();' }
         ]
@@ -887,6 +890,7 @@ MATRIX          黑客帝国特效
 SNOW            下雪特效
 DANCE           让窗口跳舞
 STARWARS        原力觉醒
+YUANSHEN        原神！启动！！！
 `);
         }
         return true;
@@ -901,13 +905,27 @@ STARWARS        原力觉醒
             ];
             $('#win-terminal>.text-cmd').append(greetings[Math.floor(Math.random() * greetings.length)] + '\n');
         }
+	    return true;
+    }
+    else if (cmd.toLowerCase() === 'yuanshen') {
+        if (inTerminal) {
+            const greetings = [
+                '原神！ (◍•ᴗ•◍)',
+                '启动！！！ ╰(*°▽°*)╯',
+                '*windows12: 原神.exe 无响应......* (☹)',
+                '不开了！ (☹☹☹)'
+		'卸载！！！(©你妈)'
+            ];
+            $('#win-terminal>.text-cmd').append(greetings[Math.floor(Math.random() * greetings.length)] + '\n');
+        }
+	    
         return true;
     }
     else if (cmd.toLowerCase() === 'matrix') {
         if (inTerminal) {
             const chars = 'ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ1234567890'; // 哈？(from stsc)
             let matrix = '';
-            
+		
             // 创建一个专门的容器来放置 matrix 效果
             const matrixContainer = $('<div class="matrix-container" style="font-family: monospace; line-height: 1.2;"></div>');
             $('#win-terminal>.text-cmd').append(matrixContainer);
