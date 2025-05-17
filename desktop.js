@@ -913,8 +913,7 @@ YUANSHEN        原神！启动！！！
                 '原神！ (◍•ᴗ•◍)',
                 '启动！！！ ╰(*°▽°*)╯',
                 '*windows12: 原神.exe 无响应......* (☹)',
-                '不开了！ (☹☹☹)'
-		'卸载！！！(©你妈)'
+                '不开了！ 卸载！！！(☹☹☹©你妈)'
             ];
             $('#win-terminal>.text-cmd').append(greetings[Math.floor(Math.random() * greetings.length)] + '\n');
         }
