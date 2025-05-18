@@ -1,6 +1,6 @@
 let dymanic = [
   'api.github.com',
-  'user13865363346.github.io/win12-theme',
+  'tjy-gitnub.github.io/win12-theme',
   'win12server.freehk.svipss.top',
   'assets.msn.cn'
 ]
