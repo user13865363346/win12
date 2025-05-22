@@ -6,17 +6,17 @@
 </p>
 <h1 align="center">Windows 12 网页版</h1>
 <p align="center" class="shields">
-  <span href="https://github.com/tjy-gitnub/win12/issues" style="text-decoration:none">
-    <img src="https://img.shields.io/github/issues/tjy-gitnub/win12.svg" alt="GitHub issues"/>
+  <span href="https://github.com/user13865363346/win12/issues" style="text-decoration:none">
+    <img src="https://img.shields.io/github/issues/user13865363346/win12.svg" alt="GitHub issues"/>
   </span>
-  <span href="https://github.com/tjy-gitnub/win12/stargazers" style="text-decoration:none">
-    <img src="https://img.shields.io/github/stars/tjy-gitnub/win12.svg" alt="GitHub stars"/>
+  <span href="https://github.com/user13865363346/win12/stargazers" style="text-decoration:none">
+    <img src="https://img.shields.io/github/stars/user13865363346/win12.svg" alt="GitHub stars"/>
   </span>
   <span href="https://github.com/tjy-gitnub/win12/network" style="text-decoration:none">
-    <img src="https://img.shields.io/github/forks/tjy-gitnub/win12.svg" alt="GitHub forks"/>
+    <img src="https://img.shields.io/github/forks/user13865363346/win12.svg" alt="GitHub forks"/>
   </span>
-  <span href="https://github.com/tjy-gitnub/win12/blob/master/LICENSE" style="text-decoration:none">
-    <img src="https://img.shields.io/github/license/tjy-gitnub/win12" alt="GitHub License"/>
+  <span href="https://github.com/user13865363346/win12/blob/master/LICENSE" style="text-decoration:none">
+    <img src="https://img.shields.io/github/license/user13865363346/win12" alt="GitHub License"/>
   </pan>
 </p>
 <p align="center" class="language" title="Language selection 语言选择">
@@ -26,8 +26,8 @@
 </p>
 <details align="center">
   <summary>Star History</summary>
-  <a href="https://star-history.com/#tjy-gitnub/win12&Date" style="text-decoration:none">
-    <img src="https://api.star-history.com/svg?repos=tjy-gitnub/win12&type=Date" alt="Star History Chart">
+  <a href="https://star-history.com/#user13865363346/win12&Date" style="text-decoration:none">
+    <img src="https://api.star-history.com/svg?repos=user13865363346/win12&type=Date" alt="Star History Chart">
   </a>
 </details>
 
