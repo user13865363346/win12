@@ -1,7 +1,7 @@
 [!NOTE]
 # 说明
 <p align="center">
-    <img src="win12/icon/windows12.svg" width="100" height="100">
+    <img src="./windows12.svg" width="100" height="100">
 </p>
 <h1 align="center">Windows 12 网页版</h1>
 <p align="center" class="shields">
