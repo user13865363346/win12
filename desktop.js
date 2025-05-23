@@ -325,7 +325,7 @@ const cms = {
             return ['<i class="bi bi-window"></i> '+lang('打开','open'), `openapp('${arg[0]}');hide_startmenu();`];
         },
         arg => {
-            return ['<i class="bi bi-link-45deg"></i> 在桌面创建链接', 'var s=`<div class=\'b\' ondblclick=openapp(\'' + arg[0] + '\')  ontouchstart=openapp(\'' + arg[0] + '\') appname=\'' + arg[0] + '\'><img src=\'icon/' + geticon(arg[0]) + '\'><p>' + arg[1] + '</p></div>`;$(\'#desktop\').append(s);desktopItem[desktopItem.length]=s;addMenu();saveDesktop();'];
+            return ['<i class="bi bi-link-45deg"></i> 在桌面创建链接(注意!无法删除桌面链接)', 'var s=`<div class=\'b\' ondblclick=openapp(\'' + arg[0] + '\')  ontouchstart=openapp(\'' + arg[0] + '\') appname=\'' + arg[0] + '\'><img src=\'icon/' + geticon(arg[0]) + '\'><p>' + arg[1] + '</p></div>`;$(\'#desktop\').append(s);desktopItem[desktopItem.length]=s;addMenu();saveDesktop();'];
         },
         arg => {
             return ['<i class="bi bi-x"></i> 取消固定', `$('#s-m-r>.pinned>.apps>.sm-app.${arg[0]}').remove()`];
@@ -336,7 +336,7 @@ const cms = {
             return ['<i class="bi bi-window"></i> '+lang('打开','open'), `openapp('${arg[0]}');hide_startmenu();`];
         },
         arg => {
-            return ['<i class="bi bi-link-45deg"></i> 在桌面创建链接', 'var s=`<div class=\'b\' ondblclick=openapp(\'' + arg[0] + '\')  ontouchstart=openapp(\'' + arg[0] + '\') appname=\'' + arg[0] + '\'><img src=\'icon/' + geticon(arg[0]) + '\'><p>' + arg[1] + '</p></div>`;$(\'#desktop\').append(s);desktopItem[desktopItem.length]=s;addMenu();saveDesktop();'];
+            return ['<i class="bi bi-link-45deg"></i> 在桌面创建链接(注意!无法删除桌面链接)', 'var s=`<div class=\'b\' ondblclick=openapp(\'' + arg[0] + '\')  ontouchstart=openapp(\'' + arg[0] + '\') appname=\'' + arg[0] + '\'><img src=\'icon/' + geticon(arg[0]) + '\'><p>' + arg[1] + '</p></div>`;$(\'#desktop\').append(s);desktopItem[desktopItem.length]=s;addMenu();saveDesktop();'];
         },
         arg => {
             return ['<i class="bi bi-pin-angle"></i> 固定到开始菜单', 'pinapp(\'' + arg[0] + '\', \'' + arg[1] + '\', \'openapp(&quot;' + arg[0] + '&quot;);hide_startmenu();\')'];
@@ -767,9 +767,9 @@ const nts = {
     },
     'feedback-copilot': {
         cnt: `<p class="tit">反馈 Windows 12 Copilot</p>
-        <p>我们非常注重用户的体验与反馈，非常感谢对AI Copilot的建议</p>
+        <p>我们非常(不)注重用户的体验与反馈，非常感谢对AI Copilot的建议</p>
         <list class="new">
-            <a class="a" onclick="window.open('https://github.com/tjy-gitnub/win12/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">在github上提交issue (需要github账户，会得到更高重视)</a>
+            <a class="a" onclick="window.open('https://github.com/user13865363346.github.io/win12/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">在github上提交issue (需要github账户，会得到更高重视)</a>
             <a class="a" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SDw7SZURjUzOUo0VEVXU1pMWlFTSUVGWDNYWU1EWS4u','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">在Microsoft Forms上发送反馈(不需要账户，也会重视)</a>
         </list>
             `,
@@ -912,7 +912,9 @@ YUANSHEN        原神！启动！！！
             const greetings = [
                 '原神！ (◍•ᴗ•◍)',
                 '启动！！！ ╰(*°▽°*)╯',
-                '*windows12: 原神.exe 无响应......* (☹)',
+                '*windows12: 未响应: 原神.exe 无响应......* (☹)'
+		'*windows12: 文件无法打开: 无法打开此程序,可能是由于文件错误或并行程序配置不正确,请检查文件完整性或重新安装,然后再试一次。*(bushi......)'
+		'*windows12: 找不到入口: 无法定位yuanshen.dll与动态链接库$dllspcapi.dll$上'
 	    ];
             $('#win-terminal>.text-cmd').append(greetings[Math.floor(Math.random() * greetings.length)] + '\n');
         }
