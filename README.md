@@ -38,7 +38,7 @@
 ### 重要！
 
 无偿恳请各位有能力的用户为我们制作宣传片！
-详情请见[宣传片公告](https://github.com/tjy-gitnub/win12/wiki/%E5%AE%A3%E4%BC%A0%E7%89%87%E5%85%AC%E5%91%8A)
+详情请见[宣传片公告](https://github.com/user13865363346/win12/wiki)
 
 - [Windows 12 网页版](#windows-12-网页版)
   - [前前言](#前前言)
@@ -139,7 +139,7 @@ user13865363346 ：
 
 ## 在线体验
 
-[在线预览](https:/user13865363346.github.io/win12/desktop.html)
+[在线预览](https:/user13865363346.github.io/win12/win12.online.html)
 
 有点慢，稍等一下~
 
