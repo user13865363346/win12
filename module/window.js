@@ -402,8 +402,8 @@ for (let i = 0; i < wins.length; i++) {
         page.ontouchmove = win_move.bind(win);
     });
 }
-page.addEventListener('mouseup', () => {
-    page.onmousemove = null;
+page.addEventListener('mouseup', (e) => {
+    page.removeEventListener('mousemove',handleMouseMove);
     if (fil) {
         if (filty == 'top') {
             maxwin(fil.classList[1], false);
