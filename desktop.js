@@ -912,8 +912,8 @@ YUANSHEN        原神！启动！！！
             const greetings = [
                 '原神！ (◍•ᴗ•◍)',
                 '启动！！！ ╰(*°▽°*)╯',
-                '*windows12: 未响应: 原神.exe 无响应......* (☹)'
-		'*windows12: 文件无法打开: 无法打开此程序,可能是由于文件错误或并行程序配置不正确,请检查文件完整性或重新安装,然后再试一次。*(bushi......)'
+                '*windows12: 未响应: 原神.exe 无响应......* (☹)',
+		'*windows12: 文件无法打开: 无法打开此程序,可能是由于文件错误或并行程序配置不正确,请检查文件完整性或重新安装,然后再试一次。*(bushi......)',
 		'*windows12: 找不到入口: 无法定位yuanshen.dll与动态链接库$dllspcapi.dll$上'
 	    ];
             $('#win-terminal>.text-cmd').append(greetings[Math.floor(Math.random() * greetings.length)] + '\n');
