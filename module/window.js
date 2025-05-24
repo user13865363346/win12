@@ -403,7 +403,7 @@ for (let i = 0; i < wins.length; i++) {
     });
 }
 page.addEventListener('mouseup', () => {
-    page.onmousermove = null;
+    page.onmousemove = null;
     if (fil) {
         if (filty == 'top') {
             maxwin(fil.classList[1], false);
