@@ -402,7 +402,7 @@ for (let i = 0; i < wins.length; i++) {
         page.ontouchmove = win_move.bind(win);
     });
 }
-page.addEventListener('mouseup', () => {
+const page.addEventListener('mouseup', () => {
     page.onmousemove = null;
     if (fil) {
         if (filty == 'top') {
