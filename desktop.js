@@ -676,7 +676,7 @@ const nts = {
         cnt: `<p class="tit">${lang('反馈','nts.feedback.name')}</p>
             <p>${lang('我们非常(不)注重用户的体验与反馈','nts.feedback.txt')}</p>
             <list class="new">
-                <a class="a" onclick="window.open('https://github.com/tjy-gitnub/win12/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">${lang('在github上提交issue (需要github账户)','nts.feedback.github')}</a>
+                <a class="a" onclick="window.open('https://github.com/user13865363346/win12/issues','_blank');" win12_title="在浏览器新窗口打开链接" onmouseenter="showdescp(event)" onmouseleave="hidedescp(event)">${lang('在github上提交issue (需要github账户)','nts.feedback.github')}</a>
             </list>`,
         btn: [
             { type: 'main', text: lang(lang('关闭','close'),'close'), js: 'closenotice();' },
@@ -913,7 +913,7 @@ YUANSHEN        原神！启动！！！
                 '原神！ (◍•ᴗ•◍)',
                 '启动！！！ ╰(*°▽°*)╯',
                 '*windows12: 未响应: 原神.exe 无响应......* (☹)',
-		'*windows12: 文件无法打开: 无法打开此程序,可能是由于文件错误或并行程序配置不正确,请检查文件完整性或重新安装,然后再试一次。*(bushi......)',
+		'*windows12: 文件无法打开: 无法打开此程序,可能是由于文件错误或并行程序配置不正确,请检查文件完整性或重新安装,然后再试一次。(bushi......)*',
 		'*windows12: 找不到入口: 无法定位yuanshen.dll与动态链接库$dllspcapi.dll$上'
 	    ];
             $('#win-terminal>.text-cmd').append(greetings[Math.floor(Math.random() * greetings.length)] + '\n');
