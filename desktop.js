@@ -1601,7 +1601,7 @@ let copilot = {
 
         // API请求
         $.ajax({
-            url: 'https://nbgroup.pythonanywhere.com/proxy',
+             url: 'https://api.pearktrue.cn/api/aichat/',
             method: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({
